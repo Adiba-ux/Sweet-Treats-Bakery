@@ -311,3 +311,21 @@ footer p {
     color: #8b4513;
     margin: 15px;
 }
+
+.reviews {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.review-box {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.review-box h3 {
+    margin-bottom: 10px;
+}
