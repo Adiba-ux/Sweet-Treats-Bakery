@@ -226,3 +226,88 @@ footer {
     background: #4a2420;
     padding: 25px;
 }
+
+/* Premium Bakery Design */
+
+html {
+    scroll-behavior: smooth;
+}
+
+header p {
+    font-size: 19px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-images {
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.product-images > div {
+    overflow: hidden;
+    border: 1px solid #f0d8c9;
+}
+
+.product-images h3 {
+    color: #873e32;
+    margin-top: 12px;
+}
+
+.product-images p {
+    color: #a0522d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home-content {
+    padding: 25px;
+}
+
+.home-content p {
+    font-size: 17px;
+}
+
+.contact-card {
+    border: 1px solid #f0d8c9;
+}
+
+.contact-card h2 {
+    color: #873e32;
+}
+
+button {
+    box-shadow: 0 4px 10px rgba(90,40,30,0.2);
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+footer p {
+    margin: 5px;
+    letter-spacing: 0.5px;
+}
+
+::selection {
+    background: #e8b49c;
+    color: #4a2420;
+}
+
+.special-offer {
+    background: linear-gradient(135deg, #f7d6c4, #fff0df);
+    padding: 35px;
+    margin: 40px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.special-offer h3 {
+    color: #8b4513;
+    margin: 15px;
+}
